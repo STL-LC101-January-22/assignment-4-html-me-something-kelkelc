@@ -1,1 +1,46 @@
-/* Write your CSS here! */
+
+
+body {
+    display:block;
+    margin: 8px;
+    max-width: 1000px;
+    background-color: fff;
+}
+header,
+main,
+footer {
+	background-color: rgb(241, 238, 238);
+    font-size: 90%;
+}
+
+header h1 {
+	text-align: center;
+    font-size: 2.75em;
+    padding: 50px 30px;
+}
+h1, h2 {
+	margin: 0;
+}
+
+main h2 {
+	padding: 15px 0px 0px 15px;
+    font-size: 2em;
+ }
+ #mainHeading {
+    color: red;
+ }
+ .funParagraph {
+    color: green;
+ }
+ p {
+	padding: 0px 20px 0px 15px;
+    font-size: 1.25em;
+}
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
